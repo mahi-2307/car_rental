@@ -1,0 +1,90 @@
+.why {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  h4 {
+    font-size: 60px;
+  }
+  .why_content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    width: 100%;
+    gap: 100px;
+    // padding: 0 50px;
+    .why_chooseUS {
+      color: #010103;
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+      gap: 30px;
+      max-width: 50rem;
+      text-align: left;
+      //  box-shadow: 1px 1px 4px 1px gray;
+      padding: 10px;
+      border-radius: 10px;
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-weight: 500;
+        line-height: 26px;
+      }
+      button {
+        width: 50%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      button:hover {
+        color: #000;
+        background-color: white;
+        border: 1px solid black;
+        font-weight: 500;
+      }
+    }
+    .Benefits {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 44rem;
+      width: 500px;
+      .container {
+        width: 400px;
+        display: grid;
+        grid-template-columns: max-content auto;
+        gap: 10px;
+        .image {
+          background: linear-gradient(
+              to left,
+              rgba(248, 171, 94, 0.794) 50%,
+              rgba(241, 172, 52, 0.663) 50%
+            )
+            right;
+          height: 60px;
+          width: 60px;
+          text-align: center;
+          border-radius: 50%;
+          .icon {
+            margin-top: 15px;
+            font-size: 30px;
+          }
+        }
+        .benefits_data {
+          h3 {
+            font-size: 25px;
+          }
+          p {
+            padding: 10px 0;
+            font-size: 15px;font-weight: 500;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}

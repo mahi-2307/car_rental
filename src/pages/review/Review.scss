@@ -1,0 +1,58 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 100px;
+  padding: 50px 0;
+  .top {
+    text-align: center;
+    h2 {
+      font-size: 40px;
+    }
+    p{
+        margin-top: 5px;
+    font-size: 20px;
+    }
+  }
+  .bottom {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:  0 50px;
+    gap: 70px;
+    .person_review {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      gap: 30px;
+      box-shadow: 1px 1px 5px 1px gray;
+      border-radius: 10px;
+      padding: 30px;
+      .content {
+        p {
+          font-weight: 500;
+          font-size: 20px;
+        }
+      }
+      .details{
+        display: flex;
+        justify-content: space-between;
+        .img_name{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+        p{
+            font-weight: 600;
+        }
+      }
+      .icon{
+        font-size: 50px;
+      }
+    }
+    }
+  }
+}

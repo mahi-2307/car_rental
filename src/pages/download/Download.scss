@@ -1,0 +1,31 @@
+.download-section {
+  padding: 0 30px;
+  height: 80vh;
+  background: url("../../assets//bg.jpg") no-repeat;
+
+  .container {
+    width: 40vw;
+    position: absolute;
+    margin-top: 40px;
+    right: 100px;
+    .download-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 55rem;
+      text-align: left;
+    }
+    h2 {
+      font-size: 50px;
+    }
+    p {
+    }
+  }
+  .download-text__btns {
+    img {
+      height: 90px;
+      width: 250px;
+      margin: 0 10px;
+    }
+  }
+}

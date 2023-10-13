@@ -1,0 +1,62 @@
+.intro {
+  height: calc(100vh - 60px);
+
+  .landingPage {
+    display: grid;
+    grid-template-columns:
+      37vw
+      auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+    .left {
+      .top {
+        font-size: 40px;
+      }
+      .middle {
+        font-size: 60px;
+        span {
+          color: #e88432;
+        }
+      }
+      .tagline {
+        font-weight: 500;
+      }
+      .bottom {
+        button {
+          margin-top: 10px;
+          outline: none;
+          border: none;
+          background: transparent;
+          font-size: 20px;
+          padding: 10px;
+          border-radius: 1px;
+          width: 10rem;
+          cursor: pointer;
+        }
+        .book {
+          background-color: #e88432;
+          // box-shadow: 0 1px 6px 1px rgb(174, 123, 21);
+          font-weight: 500;
+        }
+        .learnMore {
+          background-color: black;
+          color: white;
+          margin: 0 10px;
+        }
+        .learnMore:hover {
+          color: #000;
+          background-color: white;
+          border: 1px solid black;
+          font-weight: 500;
+        }
+      }
+    }
+    .right {
+      img {
+        width: 50vw;
+      }
+    }
+  }
+}

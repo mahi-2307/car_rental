@@ -1,0 +1,49 @@
+.plan {
+  height: 100vh;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    .heading {
+      text-align: center;
+      h2 {
+        font-size: 36px;
+      }
+      h1 {
+        color: #e88432;
+        font-size: 50px;
+      }
+    }
+ 
+    .columns_3 {
+      display: grid;
+      grid-template-columns: 15% 15% 15%;
+      justify-content: center;
+      gap: 0 290px;
+      .selectCar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #e9c3a3;
+        padding: 20px;
+        border-radius: 50% ;
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+        .icon {
+          font-size: 50px;
+          margin: 14px 0;
+        }
+        .heading {
+          font-weight: bold;
+          font-size: 20px;
+        }
+        .content{
+            text-align: center;
+        }
+      }
+    }
+  }
+}

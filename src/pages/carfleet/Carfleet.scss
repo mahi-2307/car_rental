@@ -1,0 +1,47 @@
+.carfleet {
+  height: 100vh;
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 80px;
+    .top {
+      text-align: center;
+      p {
+        font-size: 20px;
+      }
+      h1 {
+        font-size: 50px;
+      }
+    }
+    .bottom {
+      display: grid;
+      grid-template-columns: 30% auto auto;
+      align-items: center;
+      .list-of-cars {
+        display: flex;
+        flex-direction: column;
+        button {
+          width: 55%;
+          height: 50px;
+          margin: 5px 0;
+          font-size: 20px;
+          cursor: pointer;
+          
+        }
+        .selected {
+          background-color: #e88432;
+          color: white;
+          outline: none;
+        }
+      }
+      .car-image {
+
+        img {
+          width: 450px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
